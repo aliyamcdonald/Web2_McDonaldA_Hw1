@@ -1,1 +1,1 @@
-# Web2_McDonaldA_Hw1
+# web2-week2-thursday-v1
