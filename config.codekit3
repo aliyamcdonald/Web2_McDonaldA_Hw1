@@ -19,6 +19,83 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/Image1.jpg": {
+		"ft": 16384,
+		"iS": 515486,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Image1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/image2.jpg": {
+		"ft": 16384,
+		"iS": 372544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/image2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/image3.jpg": {
+		"ft": 16384,
+		"iS": 702468,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/image3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/image4.jpg": {
+		"ft": 16384,
+		"iS": 474343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/image4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/image5.jpg": {
+		"ft": 16384,
+		"iS": 135913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/image5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/image6.jpg": {
+		"ft": 16384,
+		"iS": 146655,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/image6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/image7.jpg": {
+		"ft": 16384,
+		"iS": 85951,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/image7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2383,7 +2460,7 @@
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "",
+	"previewPathAddition": "/deploy",
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
