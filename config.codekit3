@@ -54,7 +54,7 @@
 		},
 	"/deploy/img/section-5/Deer.jpg": {
 		"ft": 16384,
-		"iS": 135913,
+		"iS": 94666,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/Deer.jpg",
@@ -65,7 +65,7 @@
 		},
 	"/deploy/img/section-5/Rabbit.jpg": {
 		"ft": 16384,
-		"iS": 146655,
+		"iS": 76180,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-5/Rabbit.jpg",
@@ -82,12 +82,12 @@
 		"oAP": "/deploy/img/section-5/Sheep.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section-6/Temple_Bar.jpg": {
 		"ft": 16384,
-		"iS": 85951,
+		"iS": 57281,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-6/Temple_Bar.jpg",
@@ -354,6 +354,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/sections:section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dev/scss/sections/sections:section-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
