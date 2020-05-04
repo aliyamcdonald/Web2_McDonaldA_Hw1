@@ -2,10 +2,36 @@
     Section 2
 ============= */
 #section-2{
-    aside {
-        img {
-            width: 50%;
-        }
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-2 .";
+    }
+    
+    @include lg{
+        padding: 100px 0;
     }
 
+    >div{   
+
+        @include lg{
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
+
+        @include xl{
+            grid-area: section-2;
+        }
+
+        aside{
+            background-image: url('../img/section-2/Blarney_Castle.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 480px;
+
+            @include md{
+                height: 410px;
+            }
+        }
+    }
 }
