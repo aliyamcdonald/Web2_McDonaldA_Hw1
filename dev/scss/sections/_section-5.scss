@@ -2,51 +2,56 @@
     Section 5
 ============= */
 #section-5{
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-5 .";
-    
-    div {
 
-        ul {
-            display: grid;
-            grid-row-gap: 10px;
-            grid-column-gap: 10px;
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";  
+    }
 
+    ul{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: repeat(3, 335px);
+
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 340);
+            grid-template-areas:
+            "sheep sheep"
+            "sheep sheep"
+            "deer rabbit";
+        }
+
+        @include xl{
+            grid-area: section-5;
+        }
+
+        li{
+            background-position: conter;
+            background-size: cover;
+        }
+            
+        #sheep{
+            background-image: url("../img/section-5/sheep.jpg") ;
             @include md{
-                display: grid;
-                grid-temlate-columns: 1fr 1fr;
-                grid-template-areas:
-                        "gallery-1 gallery-1"
-                        "gallery-2 gallery-3"
+                grid-area: sheep;
+                background-position: center top;
             }
+        }
 
-            @include lg{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-areas:
-                        "gallery-1 gallery-2"
-                        "gallery-1 gallery-3"
+        #deer{
+            background-image: url("../img/section-5/deer.jpg") ;
+            @include md{
+                grid-area: deer;
             }
+        }
 
-            #gallery-1{
-                @include md {
-                    grid-area: gallery-1;
-                }
+        #rabbit{
+            background-image: url("../img/section-5/rabbit.jpg") ;
+            @include md{
+                grid-area: rabbit;
             }
-
-            #gallery-2{
-                @include md {
-                    grid-area: gallery-2;
-                }
-            }
-
-            #gallery-3{
-                @include md {
-                    grid-area: gallery-3;
-                }
-            }
-
         }
     }
 }

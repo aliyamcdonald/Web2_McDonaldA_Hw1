@@ -2,10 +2,11 @@
     Section 1
 ============= */
 #section-1 {
-    background-image: url('img/section-3/Inside_A_Bar.jpg');
+    background-image: url('../img/section-1/Cliff_In_Ireland.jpg');
     background-position: center;
     background-size: cover;
-    height: 370px;
+    color: $green;
+    height: 510px;
     
     @include md {
         height: 510px;
@@ -15,5 +16,5 @@
         height: 680px;
     }
     
-color: $green
+
 }

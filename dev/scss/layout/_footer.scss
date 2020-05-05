@@ -2,14 +2,10 @@
     Footer
 ============= */
 footer{
-    color: $white;
     background-color: $green;
-    padding: 30px 0;
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". footer .";
+    padding: 11px 0;
+    text-align: center;
+    color: $white;
+    position: relative;
 
-    >div {
-        grid-area: footer;
-    }
 }
