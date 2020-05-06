@@ -7,6 +7,9 @@
     background-size: cover;
     color: $green;
     height: 510px;
+    text-align: left;
+    padding: 60px;
+    font-size: larger;
     
     @include md {
         height: 510px;

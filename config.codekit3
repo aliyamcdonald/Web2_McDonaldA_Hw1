@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/footer/celtic_cross.png": {
+		"ft": 32768,
+		"iS": 25425,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/celtic_cross.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-1/Cliff_In_Ireland.jpg": {
 		"ft": 16384,
 		"iS": 515486,
@@ -57,7 +68,7 @@
 		"iS": 94666,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/Deer.jpg",
+		"oAP": "/deploy/img/section-5/deer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -68,7 +79,7 @@
 		"iS": 76180,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/Rabbit.jpg",
+		"oAP": "/deploy/img/section-5/rabbit.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -87,7 +98,7 @@
 		},
 	"/deploy/img/section-6/Temple_Bar.jpg": {
 		"ft": 16384,
-		"iS": 57281,
+		"iS": 59434,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-6/Temple_Bar.jpg",
