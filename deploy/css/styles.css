@@ -427,7 +427,7 @@ header {
         cursor: pointer;
         color: #0F790F; }
     header > div #nav-container {
-      background-color: #0F790F;
+      background-color: #ECECEC;
       grid-area: nav;
       display: none;
       padding: 20px; }
@@ -456,7 +456,7 @@ footer {
   background-position: center;
   background-size: cover;
   color: #0F790F;
-  padding: 60px; }
+  padding: 200px; }
   @media (min-width: 768px) {
     #section-1 {
       height: 510px; } }
